@@ -15,6 +15,9 @@ function hitung() {
     case "*":
       hasil = parseInt(angka1) * parseInt(angka2);
       break;
+    case "/":
+      hasil = parseInt(angka1) / parseInt(angka2);
+      break;
   }
 
   document.getElementById("hasil").innerHTML = hasil;
